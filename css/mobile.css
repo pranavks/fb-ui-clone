@@ -41,7 +41,6 @@ a:hover {
 }
 
 #mobapplink {
-	background-color: #fffbe2;
 	height: 48px;
 	min-width: 360px;
 }
@@ -60,7 +59,6 @@ a:hover {
 
 /* Styles for mid-section */
 .mobmaindiv {
-	background-color: #ECEFF5;
 	min-width: 320px;
 	width: 100%;
 	height: 294px;
@@ -101,16 +99,16 @@ a:hover {
 	font-size: 14px;
 	font-weight: bold;
 	color: white;
-	background-color: #3578E5;
+	background-color: #1877f2;
 	width: 100%;
 	height: 36px;
 	border-radius: 5px;
-	border: 1px solid #3578E5;
+	border: 1px solid #1877f2;
 }
 
 #ordiv {
 	text-align: center;
-	margin: 4px 0 12px 0;
+	margin: 8px 0 20px 0;
 }
 #or {
 	font-size: 14px;
@@ -150,7 +148,7 @@ a:hover {
 
 .mobforgotpw {
 	margin-top: 15px;
-	font-size: 12px;
+	font-size: 14px;
 	text-align: center;
 }
 .mobforgotpw a {

@@ -54,13 +54,13 @@ header {
   padding: 0;
   margin: 30px 0 0 0;
   height: 34px;
-  width: 171px;
+  width: 170px;
   float: left;
 }
 .loginform {
   margin: 0;
   padding: 0;
-  margin: 8px 0 0 0;
+  margin: 8px -10px 0 0;
   border-collapse: collapse;
   float: right;
 }
@@ -100,11 +100,12 @@ header {
 .maindiv {
   background-image: linear-gradient(rgba(255,0,0,0), rgba(211,216,232));
   width: 100%;
+  height: 600px;
   min-width: 980px;
 }
 .mainsubdiv {
   margin: auto;
-  height: 572px;
+  height: 580px;
   width: 980px;
 }
 .welcome {
@@ -134,20 +135,26 @@ header {
   padding: 20px 0 20px 0;
   width: 400px;
   height: 78px;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
 }
 .createh1 {
   font-family: inherit;
-  font-size: 35px;
+  font-size: 36px;
   font-weight: 600;
   color: #333333;
   line-height: 48.24px;
   margin-bottom: 5px;
 }
-.createp {
+.createsubt {
   font-family: inherit;
   color: #1D2129;
   font-size: 19px;
+  line-height: 24.12px;
+}
+.createp {
+  font-family: inherit;
+  color: #1D2129;
+  font-size: 18px;
   line-height: 24.12px;
 }
 
@@ -181,11 +188,15 @@ header {
 
 #birthday {
   margin: 0;
-  margin: 10px 0 5px 0;
+  margin: 10px 0 7px 0;
+}
+#gender {
+  margin: 0;
+  margin: 10px 0 7px 0;
 }
 .dobdiv {
   width: 100%;
-  height: 40px;
+  height: 25px;
 }
 .dob {
   padding: 5px 5px 5px 5px;
@@ -265,13 +276,11 @@ header {
 }
 
 .gender {
-  margin: 6px 0 0 0;
+  width: 100%;
+  height: 30px;
 }
-#femalediv {
-  padding: 5px 0 5px 4px;
-}
-#malediv {
-  padding: 5px 0 5px 12px;
+#genderdiv {
+  padding: 5px 8px 5px 4px;
 }
 .gendertext {
   font-size: 18px;
@@ -294,12 +303,12 @@ header {
 #signupbutton {
   float: left;
   background-image: linear-gradient(rgb(103, 174, 85), rgb(87, 136, 67));
-  font-size: 19px;
-  font-family: 'Freight Sans Medium', Helvetica, Arial, sans-serif;
-  font-weight: 600;
-  letter-spacing: 1px;
+  font-size: 18px;
+  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+  font-weight: bold !important;
   color: #fff;
-  text-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+  letter-spacing: normal;
+  text-shadow: 0px 1px 2px rgba(0,0,0,0.5);
   margin: 10px 0 10px 0;
   padding: 7px 20px 7px 20px;
   height: 39px;
@@ -316,7 +325,7 @@ header {
 
 #createpage {
   color: #666666;
-  height: 59px;
+  height: 59spx;
   width: 100%;
   font-size: 13px;
   font-weight: 700;
@@ -331,7 +340,7 @@ footer {
   width: 100%;
   background-color: #FFF;
   min-width: 980px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 #footersubdiv {
   height: auto;
@@ -342,10 +351,10 @@ footer {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 20px;
-  padding: 8px 0 8px 0;
+  height: 30px;
+  padding: 15px 0 7px 0;
   width: inherit;
-  margin-top: 43px;
+  margin-top: 40px;
 }
 .language {
   font-size: 12px;
@@ -381,11 +390,11 @@ footer #languagediv .fa {
   width: 980px;
   border: 0.5px solid #DDDFE2;
   margin: auto;
-  margin-top: 13px;
-  margin-bottom: 13px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 #extralinksdiv {
-  height: 57px;
+  height: 56px;
   width: inherit;
 }
 .extralinks {
@@ -397,7 +406,7 @@ footer #languagediv .fa {
 #copyrightdiv {
   font-size: 11px;
   color: #737373;
-  margin-top: 33px;
+  padding-bottom: 14px;
 }
 #copyrightfblink {
   color: #737373;
